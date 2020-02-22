@@ -1,0 +1,37 @@
+#heading1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-self: flex-end; 
+}
+ .article{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: flex-start;
+
+
+ 	
+ }
+#heading2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-self: flex-end; 
+
+}
+.inside{
+	display: flex;
+}
+#img1, #img2{
+	float: right;
+	display: flex;
+	flex-wrap: wrap;
+}
+.content:hover {
+
+color: yellow;
+background-color: orange;
+
+};
